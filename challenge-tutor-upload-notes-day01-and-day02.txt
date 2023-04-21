@@ -1,9 +1,9 @@
--- Day 1 & day 2 challenges 
-Sorry, I put day1 and day2 in the same file before you told us not to.
-Each day is in clearly defined separate sections though.
+Requested basic HTML elements included in page.
 
--- View webpage
-https://koalatreehotel.github.io/week01-day01-and-day02-basic-sloth/
+Initially had day01 and day02 challenges merged together on the same page.
+Have now separated them into 2 distinct pages.
 
--- View all repos:
-https://github.com/KoalaTreeHotel?tab=repositories
+Keeping git history intact by:
+(1) cloning combined page to a bare repo on local machine
+(2) pushing this bare repo to a working repo on github
+(3) cloning the working repo from github to local machine and stripping out day02 code
