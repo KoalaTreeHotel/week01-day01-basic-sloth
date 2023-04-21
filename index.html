@@ -15,11 +15,6 @@
     <h1 id="day1" class="header"> Basic HTML Elements</h1>
   </header>
 
-  <!-- Nav bar -->
-  <ul class="nav-ul">
-    <li class="nav-li"><a class="active" href="#day1">Day1</a></li>
-    <li class="nav-li"><a href="#day2">Day2</a></li>
-  </ul>
   <section class="odd-day">
     <h3>Day 1: Unleash the Sloth Within - Personal Growth Guaranteed</h3>
     <img src="./images/sloth-face.png" alt="Pictre of sloth" width="200" height="200">
@@ -67,58 +62,6 @@
     <br><br><br>
   </section>
 
-  <section class="even-day">
-    <h3 id="day2">Day 2: Input Forms</h3>
-    <form action="/action_page.php">
-      <fieldset>
-        <legend>Personal Information</legend>
-        What best describes your self-confidence?
-        <br>
-        <input type="radio" id="conf-low" name="confidence-level" value="confidence_low">
-        <label for="conf-low">Low</label><br>
-        <input type="radio" id="conf-med" name="confidence-level" value="confidence_medium">
-        <label for="conf-med">Medium</label><br>
-        <input type="radio" id="conf-high" name="confidence-level" value="confidence_high">
-        <label for="conf-high">High</label>
-        <br><br>
-
-        Tell us all the improvements you wish to make:
-        <br>
-        <input type="checkbox" id="improvement1" name="improvement1" value="more_money">
-        <label for="improvement1"> More money!</label><br>
-        <input type="checkbox" id="improvement2" name="improvement2" value="more_slim">
-        <label for="improvement2"> More slim!</label><br>
-        <input type="checkbox" id="improvement3" name="improvement3" value="more_time">
-        <label for="improvement3"> More free time!</label><br>
-        <input type="checkbox" id="improvement4" name="improvement4" value="more_attractive">
-        <label for="improvement4"> More attractive!</label><br>
-        <input type="checkbox" id="improvement5" name="improvement5" value="more_friends">
-        <label for="improvement5"> More friends!</label>
-        <br>
-        <label for="fname">Tell us of any other improvement you wish to make that's not on the list:</label><br>
-        <input type="text" id="fname" name="fname" value="I would also like..." size="50"><br>
-        <br>
-
-
-        Please upload a personal statement describing why you need to <em>Unleash the Sloth Within</em> (optional):
-        <br>
-        <label for="myfile">Select a file:</label>
-        <input type="file" id="myfile" name="myfile">
-        <br><br>
-
-        <label for="payment">Payment method:</label>
-        <select id="payment" name="cars">
-          <option value="pay_credit">Credit card</option>
-          <option value="pay_debit">Debit card</option>
-          <option value="pay_paypal">Paypal</option>
-          <option value="pay_bitcoin">Bitcoin</option>
-        </select>
-        <br><br>
-
-        <input type="submit" value="Submit">
-      </fieldset>
-    </form>
-  </section>
 </body>
 
 </html>
